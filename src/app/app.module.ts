@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WavesComponent } from './waves/waves.component';
 import { FeatureBoxComponent } from './feature-box/feature-box.component';
+import { FeatureListComponent } from './feature-list/feature-list.component';
+import { WaveComponent } from './wave/wave.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WavesComponent,
-    FeatureBoxComponent
+    FeatureBoxComponent,
+    FeatureListComponent,
+    WaveComponent
   ],
   imports: [
     BrowserModule,

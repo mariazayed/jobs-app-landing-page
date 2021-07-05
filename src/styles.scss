@@ -14,13 +14,14 @@ h2 {
 }
 
 img {
-  width: 25%;
+  width: 20%;
 }
 
 .btn {
   background-color: $secondary;
   color: white;
   border-radius: 5px !important;
+  width: fit-content;
 }
 
 .btn:hover {
@@ -40,4 +41,29 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.padding-70px {
+  padding: 70px;
+}
+
+.margin-left-60px {
+  margin-left: 60px;
+}
+
+.text-light-grey {
+  color: $light-grey;
+}
+
+.font-14px {
+  font-size: 14px;
+}
+
+.margin-tb-30px {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.margin-t-20px {
+  margin-top: 20px;
 }
