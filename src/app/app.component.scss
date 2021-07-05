@@ -1,0 +1,13 @@
+@import "../assets/css/colors";
+
+.btn-no-border {
+  border: none;
+  background: none;
+  color: $white;
+}
+
+.btn-no-border:hover {
+  border-radius: 5px;
+  color: $secondary;
+  border: 1px solid $secondary
+}

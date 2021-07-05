@@ -4,11 +4,13 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WavesComponent } from './waves/waves.component';
+import { FeatureBoxComponent } from './feature-box/feature-box.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WavesComponent
+    WavesComponent,
+    FeatureBoxComponent
   ],
   imports: [
     BrowserModule,

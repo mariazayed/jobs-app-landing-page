@@ -1,14 +1,37 @@
-	<app-waves>
-		<div>
-			<h1>Download Our App and Enjoy!</h1>
-			<h3>Contrary to popular belief, Lorem Ipsum is not simply randa text. has
-			    roots in a piece of classical Latin literature from BC, making it over
-			    2000 years old. Richard McClintock.
-			</h3>
-			<div class="btn-group">
-				<button class="btn btn-danger" role="button">Download Now</button>
-				<button class="btn btn-outline-danger" role="button">Watch Video</button>
-			</div>
+<app-waves>
+	<div>
+		<h1 class="my-3">Download Our App and Enjoy!</h1>
+		<h2 class="my-3">
+			Contrary to popular belief, Lorem Ipsum is not simply randa text. has roots in a piece of classical Latin
+			literature from BC, making it over 2000 years old. Richard McClintock.
+		</h2>
+		<div class="btn-group my-3">
+			<button class="btn mx-2" role="button">Download Now</button>
+			<button class="btn-no-border d-flex align-items-center" role="button">
+				<span class="material-icons">play_arrow</span>
+				Watch Video
+			</button>
 		</div>
-		<img src="assets/1.png" alt="app">
-	</app-waves>
+	</div>
+	<img src="../assets/images/1.png" alt="app">
+</app-waves>
+
+<div class="d-flex justify-content-evenly">
+	<app-feature-box icon="architecture"
+	                 title="Awesome Design"
+	                 description="Awesome Design Lorem ipsum dolor sit amet into consectetur adipiscing elit, sed do eiusmod tempor incid."
+	                 iconColor="#ff7588"
+	                 iconBgColor="#fff4f5"></app-feature-box>
+
+	<app-feature-box icon="edit"
+	                 title="Easy to Edit"
+	                 description="Awesome Design Lorem ipsum dolor sit amet into consectetur adipiscing elit, sed do eiusmod tempor incid."
+	                 iconColor="#7a65ff"
+	                 iconBgColor="#f5f4ff"></app-feature-box>
+
+	<app-feature-box icon="shield"
+	                 title="Fully Secured"
+	                 description="Awesome Design Lorem ipsum dolor sit amet into consectetur adipiscing elit, sed do eiusmod tempor incid."
+	                 iconColor="#ffaa8f"
+	                 iconBgColor="#fff6f3"></app-feature-box>
+</div>

@@ -1,9 +1,43 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "assets/css/colors";
 
 body {
-  margin:0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1rem;
 }
 
 img {
   width: 25%;
+}
+
+.btn {
+  background-color: $secondary;
+  color: white;
+  border-radius: 5px !important;
+}
+
+.btn:hover {
+  color: $secondary;
+  border: 1px solid $secondary;
+  background: none;
+  border-radius: 5px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
