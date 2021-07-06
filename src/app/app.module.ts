@@ -7,6 +7,7 @@ import { WavesComponent } from './waves/waves.component';
 import { FeatureBoxComponent } from './feature-box/feature-box.component';
 import { FeatureListComponent } from './feature-list/feature-list.component';
 import { WaveComponent } from './wave/wave.component';
+import { CounterComponent } from './counter/counter.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { WaveComponent } from './wave/wave.component';
     WavesComponent,
     FeatureBoxComponent,
     FeatureListComponent,
-    WaveComponent
+    WaveComponent,
+    CounterComponent
   ],
   imports: [
     BrowserModule,
