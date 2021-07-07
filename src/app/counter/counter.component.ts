@@ -17,10 +17,10 @@ export class CounterComponent implements OnInit {
         const counters = document.querySelectorAll('.value');
         const speed = 200;
 
-        counters.forEach(counter => {
+        counters.forEach((counter: Element) => {
             const animate = () => {
                 // @ts-ignore
-                const value = +counter.getAttribute('akhi');
+                const value = +counter.getAttribute('maxValue');
                 // @ts-ignore
                 const data = +counter.innerText;
 
@@ -38,5 +38,4 @@ export class CounterComponent implements OnInit {
             animate();
         });
     }
-
 }
